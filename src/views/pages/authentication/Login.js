@@ -166,10 +166,10 @@ const Login = () => {
         <Col className='d-flex align-items-center auth-bg px-2 p-lg-5' lg='4' sm='12'>
           <Col className='px-xl-2 mx-auto' sm='8' md='6' lg='12'>
             <CardTitle tag='h2' className='fw-bold mb-1'>
-              Welcome to Vuexy! 👋
+              Welcome to Bintang Teknik! 👋
             </CardTitle>
             <CardText className='mb-2'>Please sign-in to your account and start the adventure</CardText>
-            <Alert color='primary'>
+            {/* <Alert color='primary'>
               <div className='alert-body font-small-2'>
                 <p>
                   <small className='me-50'>
@@ -191,7 +191,7 @@ const Login = () => {
               <UncontrolledTooltip target='login-tip' placement='left'>
                 This is just for ACL demo purpose.
               </UncontrolledTooltip>
-            </Alert>
+            </Alert> */}
             <Form className='auth-login-form mt-2' onSubmit={handleSubmit(onSubmit)}>
               <div className='mb-1'>
                 <Label className='form-label' for='login-email'>
@@ -230,12 +230,12 @@ const Login = () => {
                   )}
                 />
               </div>
-              <div className='form-check mb-1'>
+              {/* <div className='form-check mb-1'>
                 <Input type='checkbox' id='remember-me' />
                 <Label className='form-check-label' for='remember-me'>
                   Remember Me
                 </Label>
-              </div>
+              </div> */}
               <Button type='submit' color='primary' block>
                 Sign in
               </Button>
@@ -246,10 +246,10 @@ const Login = () => {
                 <span>Create an account</span>
               </Link>
             </p>
-            <div className='divider my-2'>
+            {/* <div className='divider my-2'>
               <div className='divider-text'>or</div>
-            </div>
-            <div className='auth-footer-btn d-flex justify-content-center'>
+            </div> */}
+            {/* <div className='auth-footer-btn d-flex justify-content-center'>
               <Button color='facebook'>
                 <Facebook size={14} />
               </Button>
@@ -262,7 +262,7 @@ const Login = () => {
               <Button className='me-0' color='github'>
                 <GitHub size={14} />
               </Button>
-            </div>
+            </div> */}
           </Col>
         </Col>
       </Row>

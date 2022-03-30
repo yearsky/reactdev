@@ -1,6 +1,6 @@
 // ** Auth Endpoints
 export default {
-  loginEndpoint: 'http://127.0.0.1:8000/api/login',
+  loginEndpoint: 'https://api.bintangteknik.id/api/login',
   // loginEndpoint: '/jwt/login',
   registerEndpoint: '/jwt/register',
   refreshEndpoint: 'http://127.0.0.1:8000/api/refresh',
