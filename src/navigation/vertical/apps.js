@@ -10,6 +10,12 @@ export default [
     title: 'Email',
     icon: <Mail size={20} />,
     navLink: '/apps/email'
+  },
+  {
+    id: 'dataCustomer',
+    title: 'Data Customer',
+    icon: <User size={20} />,
+    navLink: '/apps/data-grid'
   }
   
 ]

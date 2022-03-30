@@ -11,6 +11,13 @@ const AppRoutes = [
     component: lazy(() => import('../../views/apps/email'))
   },
   {
+    path: '/apps/data-grid',
+    exact: true,
+    appLayout: true,
+    // className: 'email-application',
+    component: lazy(() => import('../../views/apps/datagrid'))
+  },
+  {
     path: '/apps/email/:folder',
     exact: true,
     appLayout: true,

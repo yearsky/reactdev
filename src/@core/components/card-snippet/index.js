@@ -28,7 +28,7 @@ const CardSnippet = props => {
     <Card className='card-snippet'>
       <CardHeader>
         <CardTitle tag='h4'>{title}</CardTitle>
-        <div className='views cursor-pointer' onClick={toggle}>
+        <div className='views cursor-pointer hidden' onClick={toggle}>
           {IconCode}
         </div>
       </CardHeader>

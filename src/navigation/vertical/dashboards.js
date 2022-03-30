@@ -8,18 +8,19 @@ export default [
     icon: <Home size={20} />,
     badge: 'light-warning',
     children: [
-      // {
-      //   id: 'analyticsDash',
-      //   title: 'Analytics',
-      //   icon: <Circle size={12} />,
-      //   navLink: '/dashboard/analytics'
-      // },
+      {
+        id: 'analyticsDash',
+        title: 'Analytics',
+        icon: <Circle size={12} />,
+        navLink: '/dashboard/analytics'
+      },
       {
         id: 'eCommerceDash',
         title: 'Master Dashboard',
         icon: <Circle size={12} />,
         navLink: '/dashboard/ecommerce'
       }
+      
     ]
   }
 ]
