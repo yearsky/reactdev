@@ -18,7 +18,6 @@ const Sidebar = props => {
   const [groupActive, setGroupActive] = useState([])
   const [currentActiveGroup, setCurrentActiveGroup] = useState([])
   const [activeItem, setActiveItem] = useState(null)
-
   // ** Menu Hover State
   const [menuHover, setMenuHover] = useState(false)
 

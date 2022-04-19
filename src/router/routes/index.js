@@ -1,31 +1,35 @@
+/* eslint-disable comma-dangle */
+/* eslint-disable semi */
 // ** Routes Imports
-import AppRoutes from './Apps'
-import FormRoutes from './Forms'
-import PagesRoutes from './Pages'
-import TablesRoutes from './Tables'
-import ChartsRoutes from './Charts'
-import DashboardRoutes from './Dashboards'
-import UiElementRoutes from './UiElements'
-import ExtensionsRoutes from './Extensions'
-import PageLayoutsRoutes from './PageLayouts'
+import AppRoutes from "./Apps";
+import FormRoutes from "./Forms";
+import PagesRoutes from "./Pages";
+import TablesRoutes from "./Tables";
+import ChartsRoutes from "./Charts";
+import DashboardRoutes from "./Dashboards";
+import UiElementRoutes from "./UiElements";
+import ExtensionsRoutes from "./Extensions";
+import PageLayoutsRoutes from "./PageLayouts";
+import MasterRoutes from "./Master";
 
 // ** Document title
-const TemplateTitle = 'Bintang Teknik'
+const TemplateTitle = "Bintang Teknik";
 
 // ** Default Route
-const DefaultRoute = '/dashboard/ecommerce'
+const DefaultRoute = "/dashboard/ecommerce";
 
 // ** Merge Routes
 const Routes = [
   ...DashboardRoutes,
   ...AppRoutes,
   ...PagesRoutes,
+  ...MasterRoutes,
   ...UiElementRoutes,
   ...ExtensionsRoutes,
   ...PageLayoutsRoutes,
   ...FormRoutes,
   ...TablesRoutes,
-  ...ChartsRoutes
-]
+  ...ChartsRoutes,
+];
 
-export { DefaultRoute, TemplateTitle, Routes }
+export { DefaultRoute, TemplateTitle, Routes };

@@ -3,7 +3,7 @@ import { Home, Circle } from 'react-feather'
 
 export default [
   {
-    id: 'dashboards',
+    id: 1,
     title: 'Dashboards',
     icon: <Home size={20} />,
     badge: 'light-warning',
@@ -13,6 +13,7 @@ export default [
         title: 'Analytics',
         icon: <Circle size={12} />,
         navLink: '/dashboard/analytics'
+        
       },
       {
         id: 'eCommerceDash',
